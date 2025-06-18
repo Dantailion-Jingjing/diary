@@ -56,3 +56,4 @@ with open("faq_result_2.csv", "w", newline="", encoding="utf-8") as f:
 driver.quit()
 print("✅ 中身と画像ファイルの有無の確認結果をfaq_result_2.csvに書き込んだよ 🐣")
 
+
