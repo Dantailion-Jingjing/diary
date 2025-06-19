@@ -17,6 +17,7 @@ creds = Credentials.from_service_account_file(
     SERVICE_ACCOUNT_FILE, scopes=SCOPES
 )
 
+
 gc = gspread.authorize(creds)
 
 # --- スプレッドシートを「ID」で開く ---

@@ -8,6 +8,7 @@ from google.auth.transport.requests import Request
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaIoBaseDownload
 
+
 # ⏱️  先月の年月を取得
 today = datetime.today()
 first_day_of_this_month = today.replace(day=1)
